@@ -1,0 +1,5 @@
+# GLEW 2 Binding files
+headers = GL/glew.h
+
+compilerOpts.mingw = -IF:/lib/glew-2.1.0/include
+linkerOpts.mingw = -LF:/lib/glew-2.1.0/lib -lglew32.dll

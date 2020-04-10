@@ -1,0 +1,5 @@
+# GLFW 3 Binding file
+headers = GLFW/glfw3.h
+
+compilerOpts.mingw = -IF:/lib/glfw-3.3.2/include
+linkerOpts.mingw = -LF:/lib/glfw-3.3.2/src -lglfw3dll
